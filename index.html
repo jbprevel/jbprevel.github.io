@@ -11,9 +11,9 @@
       <nav>
         <span>Jean-Baptiste <strong> PREVEL </strong></span>
         <ul class="nav-links">
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">Compétences</a></li>
-          <li><a href="#">Me contacter</a></li>
+          <li><a href="#presentation">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#footer">Me contacter</a></li>
         </ul>
       </nav>
       <h1>Développeur Web</h1>
@@ -23,7 +23,7 @@
       </p>
     </header>
     <main>
-      <section class="presentation">
+      <section id="presentation">
         <article class="presentation-container">
           <h2>À propos</h2>
           <p>
@@ -36,13 +36,13 @@
           ><span class="town">Ville: 14000 CAEN</span>
           <a
             class="cv"
-            href="https://github.com/jbprevel/jbprevel.github.io/raw/main/Cv%20d%C3%A9veloppeur%20web.docx"
+            href="https://github.com/jbprevel/CV/blob/main/Cv%20d%C3%A9veloppeur%20web.docx?raw=true"
             download=""
             >Télecharger mon CV</a
           >
         </article>
       </section>
-      <section class="skills">
+      <section id="skills">
         <article class="skills-container">
           <h2>Compétences</h2>
           <div class="html"></div>
@@ -52,15 +52,18 @@
           <div class="bootstrap"></div>
           <div class="figma"></div>
         </article>
-        <div class="email">
-          <p>Me contacter:</p>
-          <a href="mailto:jb.prevel50@gmail.com" class="contact"
-            >jb.prevel50@gmail.com</a
-          >
-        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer id="footer">
+      <div class="socials">
+        <a
+          href="mailto:jb.prevel50@gmail.com"
+          target="blank"
+          class="contact"
+        ></a>
+        <a class="github" href="https://github.com/jbprevel" target="blank"></a>
+      </div>
+    </footer>
 
     <script src="./main.js"></script>
   </body>

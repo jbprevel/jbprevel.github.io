@@ -306,7 +306,6 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   color: black;
-  position: fixed;
   bottom: 1rem;
   left: 1rem;
   text-decoration: none;
@@ -317,9 +316,49 @@ main {
 }
 
 footer {
-  max-width: 60vw;
-  margin: auto;
-  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 10rem;
   background: #e6fafc;
+  margin-top: 5rem;
+}
+
+footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2rem;
+}
+
+footer .contact {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 2rem;
+  background: url(./assets/images/email.png) no-repeat center/cover;
+}
+
+footer .github {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 2rem;
+  background: url(./assets/images/github.png) no-repeat center/cover;
+}
+
+footer::before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #000;
 }
 /*# sourceMappingURL=style.css.map */
