@@ -32,7 +32,7 @@ new Typewriter(txtAnim, {
   deleteSpeed: 25, // modifie la vitesse d'effacement
 })
   .changeDelay(50) //on peut changer la vitesse d'ecriture
-  .typeString("Moi c' est JB") // on ecrit ce que l'on souhaite
+  .typeString("Moi c' est Jean-Baptiste") // on ecrit ce que l'on souhaite
   .pauseFor(1000) // on fait une pause entre deux "phrases"
   .typeString(", Passionné de Développement WEB") //on ajoute une balise span pour pouvoir y injecter du style
   .pauseFor(1000)
