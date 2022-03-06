@@ -48,3 +48,69 @@ new Typewriter(txtAnim, {
   .deleteChars(11)
   .typeString(" Développement WEB")
   .start(); // on lance la fonction;
+
+// revelation des elements à leur apparition au scroll
+
+const sr = ScrollReveal(); //on initialise la constante sr avec la fonction ScrollReveal du script importé
+
+// on appelle la fonction avec en paramètre l'élement ciblé et dans un objet les caracteristiques voulues
+sr.reveal(".presentation-container", {
+  delay: 500,
+  easing: "ease-out",
+});
+
+sr.reveal(".presentation-container h2", {
+  delay: 700,
+  origin: "top",
+  distance: "2rem",
+  easing: "ease-out",
+  opacity: "0",
+});
+
+sr.reveal(".presentation-container p", {
+  delay: 700,
+  easing: "ease-out",
+  scale: 0.5,
+});
+sr.reveal(".nationality", {
+  delay: 900,
+  duration: 500,
+  distance: "2rem",
+  easing: "ease-out",
+  origin: "left",
+});
+
+sr.reveal(".town", {
+  delay: 900,
+  duration: 500,
+  distance: "2rem",
+  easing: "ease-out",
+  origin: "right",
+});
+
+sr.reveal(".cv", {
+  delay: 1000,
+  duration: 500,
+  distance: "2rem",
+  easing: "ease-out",
+  origin: "bottom",
+});
+
+sr.reveal(".skills-container", {
+  delay: 500,
+  easing: "ease-out",
+});
+
+sr.reveal(".skills-container h2", {
+  delay: 700,
+  origin: "top",
+  distance: "2rem",
+  easing: "ease-out",
+  opacity: "0",
+});
+
+sr.reveal(".skills-container div", {
+  delay: 300,
+  easing: "ease-out",
+  interval: 1000,
+});

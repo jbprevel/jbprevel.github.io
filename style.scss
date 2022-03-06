@@ -163,6 +163,7 @@ main {
   grid-area: town;
 }
 .cv {
+  display: inline-block;
   grid-area: cv;
   margin-top: 2rem;
   text-decoration: none;
