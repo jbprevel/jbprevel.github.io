@@ -145,8 +145,6 @@ main {
     "p p"
     "nationality town"
     "cv cv";
-  max-width: 100%;
-  min-height: 50%;
   border: 1px solid $sea;
   box-shadow: 1px 2px 3px 0px $sea;
   border-radius: 1rem;
@@ -157,12 +155,13 @@ main {
   & h2 {
     grid-area: h2;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "louis_george_cafebold", sans-serif;
   }
   & p {
     grid-area: p;
     padding: 2rem;
+    font-size: 2rem;
   }
 }
 
@@ -197,18 +196,17 @@ main {
     "html css js"
     "sass bootstrap figma";
   justify-content: space-around;
-  max-width: 100%;
   margin: 5rem auto;
   padding: 2rem;
-  height: 100%;
   border: 1px solid $sea;
   box-shadow: 1px 2px 3px 0px $sea;
   border-radius: 1rem;
+  font-size: 2rem;
   & h2 {
     grid-area: h2;
     text-align: center;
     font-family: "louis_george_cafebold", sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
